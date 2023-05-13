@@ -4,8 +4,7 @@ package {
 
 java_library {
     name: "pandora_experimental-grpc-java",
-    visibility: ["//packages/modules/Bluetooth/android/pandora/server"],
-    visibility = ["//packages/modules/Bluetooth/pandora/interfaces"],
+    visibility: ["//packages/modules/Bluetooth/android/pandora/server", "//packages/modules/Bluetooth/pandora/interfaces"],
     srcs: [
         "pandora_experimental/*.proto",
     ],
